@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App-hospital</string>
+    <string name="title_activity_tela_listagem">TelaListagem</string>
+</resources>
