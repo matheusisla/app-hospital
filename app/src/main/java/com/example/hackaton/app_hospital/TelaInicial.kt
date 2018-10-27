@@ -14,9 +14,12 @@ class TelaInicial : AppCompatActivity() {
     fun navegacaoEnfermagem() {
         var intent = Intent(this, TelaListagem::class.java)
         intent.putExtra("tipo", "enfermagem")
+        startActivity(intent)
     }
+
     fun navegacaoLimpeza() {
         var intent = Intent(this, TelaListagem::class.java)
-        intent.putExtra("tipo", "enfermagem")
+        intent.putExtra("tipo", "limpeza")
+        startActivity(intent)
     }
 }
